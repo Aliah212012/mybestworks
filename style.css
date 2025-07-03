@@ -1,0 +1,84 @@
+
+
+body {
+  font-family: 'Comic Neue', cursive;
+  background-color: #ffe6f0;
+  color: #d63384;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, #ffb6c1, #fff0f5);
+  padding: 20px;
+  border-bottom: 5px dashed #ff69b4;
+}
+
+.link-header {
+  font-size: 36px;
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-header:hover {
+  color: #ff1493;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.link-nav {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #d63384;
+  background-color: #ffd6e7;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+  transition: 0.3s ease-in;
+}
+
+.link-nav:hover {
+  background-color: #ffb6c1;
+  color: white;
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 48px;
+  color: #e75480;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.blala {
+  border: 10px dotted #ff99cc;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 8px 16px #ff69b44d;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #fff0f5;
+  padding: 20px;
+  border-top: 4px dashed #ff69b4;
+}
+
+.social img {
+  border-radius: 50px;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.7);
+}
